@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Minimum-Spanning-Tree-Finding.CUDAParallel/Minimum-Spanning-Tree-Finding.CUDAParallel.vcxproj">
+    <Platform Project="x64" />
+  </Project>
+  <Project Path="Minimum-Spanning-Tree-Finding.Serial/Minimum-Spanning-Tree-Finding.Serial.vcxproj" Id="2e103186-4b2d-4a33-bd06-09c06076551f" />
+</Solution>

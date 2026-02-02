@@ -1,0 +1,102 @@
+###########################
+# Visual Studio C++ Defaults
+###########################
+
+# Build Results (Artifacts)
+[Dd]ebug/
+[Rr]elease/
+[Xx]64/
+[Xx]86/
+[Aa]rm64/
+[Aa]rm/
+bin/
+obj/
+*.exe
+*.dll
+*.lib
+*.pdb
+*.exp
+*.ilk
+*.out
+*.app
+
+# Intermediate Build Files
+*.obj
+*.tlog
+*.lastbuildstate
+*.recipe
+*.idb
+*.ipch
+*.pch
+*.res
+*.pch
+*.iobj
+*.ipdb
+
+# Visual Studio Project & User Files
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.db
+*.opendb
+*.vc.db
+
+# Intellisense & Browse database
+*.ncb
+*.sdf
+*.sdf
+
+# Unit Test & Code Analysis
+TestResults/
+*.CodeAnalysisLog.xml
+*.lastcodeanalysissucceeded
+
+###########################
+# Temporary & System Files
+###########################
+*.tmp
+*.bak
+*.swp
+*.~*
+Thumbs.db
+.DS_Store
+
+###########################
+# External Tools
+###########################
+# vcpkg (if you use it for C++ libraries)
+vcpkg_installed/
+
+# CMake (if you eventually switch from .vcxproj)
+/out/
+/build/
+CMakeSettings.json
+CMakeUserPresets.json
+
+###########################
+# CUDA (NVIDIA nvcc)
+###########################
+# Compiled CUDA objects and kernels
+*.cu.obj
+*.ptx
+*.cubin
+*.fatbin
+# CUDA Profile and Insight data
+*.nvprof
+*.nv-vp-project
+*.nvact
+*.ninsight
+# NSight Visual Studio Edition temp files
+__nv_rel_plus_unit_test/
+NsightVisualizer/
+
+###########################
+# OpenMP
+###########################
+# While OpenMP is usually handled by the C++ compiler, 
+# some profilers generate specific trace data.
+*.gmon.out
+*.ompp
+vampir.log
+
